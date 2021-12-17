@@ -1,0 +1,30 @@
+@charset "UTF8";
+@import url ('https://fonts.googleapis.com/css2? family = Consolador & display = swap');
+
+body{
+    background-image: linear-gradient(to right,#FF5493, #F5387D );
+
+}
+h1{
+    font-family: Consolador;
+    font-size: 3em;
+    
+    color:#199622e7 ;
+    text-align: center;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-style: oblique;
+    text-align: center;
+}
+
+}
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+img{
+    text-align: left;
+}
