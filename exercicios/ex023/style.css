@@ -5,23 +5,38 @@ table{
     
     width: 400px;
     border-collapse: collapse;
-}
+    position: relative;/*para fixar o cabeçalho*/
+}/*dimencionamdo a tabela*/
 
 th{
     background-color: gray;
     color: white;
-}
+}/*colocando cor no titulo*/
 
 td, th{
     border: 1px solid black;
     padding: 8px;
     text-align: left;
     vertical-align: top;
+}/*colocando borda na tabela*/
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgrey;
 }
 thead, tfoot{
     background-color: gray;
     color: white;
 }
+thead > tr > th{
+    position: sticky;
+    top: 0;
+}/*fixando o cabecçalho*/
+
+tbody > tr:nth-child(2n){
+    background-color: lightgrey;
+}/*efeito zebrado*/
 td.num{
     text-align: right;
 }
